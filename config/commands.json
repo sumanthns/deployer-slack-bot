@@ -1,0 +1,19 @@
+{
+	"help": {
+		"alias": [ "halp" ],
+		"endpoint": "#",
+		"help": "help [command](optional)",
+		"description": "To get help on all supported commands, or a specified command"
+	},
+
+	"deploy": {
+		"alias": [],
+		"endpoint": "#",
+		"help": "deploy [module] [service]",
+		"description": "Deploys a given module and service to dev env"
+	},
+
+	"error": {
+		"exclude": true
+	}
+}

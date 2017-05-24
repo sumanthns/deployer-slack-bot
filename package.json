@@ -1,0 +1,27 @@
+{
+  "name": "egov-slack-deploy-cli",
+  "version": "1.0.0",
+  "description": "Deploy app for egov to deploy any given service to dev env",
+  "main": "index.js",
+  "dependencies": {
+    "promise": "^7.1.1",
+    "request": "^2.65.0",
+    "slack-terminalize": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sumanthns/egov-slack-deploy-cli"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "keywords": [
+    "slack",
+    "terminal"
+  ],
+  "author": "Sumanth Nagadavalli Suresh",
+  "license": "MIT"
+}
