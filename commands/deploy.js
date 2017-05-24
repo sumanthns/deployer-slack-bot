@@ -1,7 +1,6 @@
 var request = require('request'),
     Promise = require('promise'),
-    util = require('../util'),
-    info = [];
+    util = require('../util');
 
 module.exports = function (param) {
     var status = "",
@@ -13,7 +12,8 @@ module.exports = function (param) {
         auth = {
             user: process.env.JENKINS_USER,
             password: process.env.JENKINS_PASSWORD
-        };
+        },
+        info = [];
 
     function makeRequest(url, method, data) {
         return new Promise(function (resolve, reject) {
